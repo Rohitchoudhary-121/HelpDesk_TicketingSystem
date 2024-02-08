@@ -1,0 +1,39 @@
+.pills-info
+{
+    background:rgba(0, 0, 0, .12);
+    color: #000;
+    font-size:12px;
+    padding:0px 15px;
+    border-radius:15px;
+    text-transform: uppercase;
+}
+.date-time-info
+{
+    font-size:14px;
+}
+.download-link-info
+{
+    max-width: calc(100% - 100px);
+}
+.download-link-info span.small-font
+{
+    font-size:11px;
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.chat-attachment-detail .download-link-info
+{
+    max-width:100%;
+}
+.chat-attachment-detail .download-link-info span
+{
+    width:100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    /*text-overflow: ellipsis;*/
+}
+.refresh-btn
+{
+    max-height:24px;
+}
